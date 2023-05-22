@@ -3,9 +3,9 @@ import type ws from "ws";
 import type * as trpcNext from "@trpc/server/adapters/next";
 import { EventEmitter } from "node:events";
 import type { IncomingMessage } from "http";
-import { unstable_getServerSession as getServerSession } from "next-auth";
+//import { unstable_getServerSession as getServerSession } from "next-auth";
 
-import { authOptions as nextAuthOptions } from "../../pages/api/auth/[...nextauth]";
+//import { authOptions as nextAuthOptions } from "../../pages/api/auth/[...nextauth]";
 import { prisma } from "../db/client";
 import { getSession } from "next-auth/react";
 import type { NodeHTTPCreateContextFnOptions } from "@trpc/server/dist/adapters/node-http";

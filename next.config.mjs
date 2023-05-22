@@ -8,6 +8,9 @@
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
+  images: {
+    domains: ["avatars.githubusercontent.com"],
+  },
   swcMinify: true,
   i18n: {
     locales: ["en"],
